@@ -40,4 +40,4 @@ module.exports = {
     { name: 'msapplication-TileImage', content: 'assets/icon/ms-icon-144x144.png', '=content': true },
     { name: 'theme-color', content: '#4691d1' }
   ]
-};
+}
