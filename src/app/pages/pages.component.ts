@@ -22,7 +22,7 @@ import { PAGES_MENU } from './pages.menu';
         <ul class="al-share clearfix">
           <li><a href="https://www.facebook.com/akveo" target="_blank"><i class="socicon socicon-facebook"></i></a></li>
           <li><a href="https://twitter.com/akveo_inc" target="_blank"><i class="socicon socicon-twitter"></i></a></li>
-          <li><a href="mailto:help@akveo.com"><i class="socicon socicon-google"></i></a></li>
+          <li><a href="mailto:contact@akveo.com"><i class="socicon socicon-google"></i></a></li>
           <li><a href="https://github.com/akveo" target="_blank"><i class="socicon socicon-github"></i></a></li>
         </ul>
       </div>
