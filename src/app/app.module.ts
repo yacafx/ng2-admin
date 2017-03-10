@@ -9,6 +9,7 @@ import { NgaThemeModule } from '../framework/theme';
 import { AppComponent } from './app.component';
 import { NgaCardTestComponent } from './card-test/card-test.component';
 import { NgaLayoutTestComponent } from './layout-test/layout-test.component';
+import { NgaTabsetTestComponent } from './tabset-test/tabset-test.component';
 
 import { routes } from './app.routes';
 
@@ -17,6 +18,7 @@ import { routes } from './app.routes';
     AppComponent,
     NgaCardTestComponent,
     NgaLayoutTestComponent,
+    NgaTabsetTestComponent,
   ],
   imports: [
     BrowserModule,

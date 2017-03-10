@@ -2,7 +2,7 @@ import { browser, element, by } from 'protractor';
 
 describe('nga-layout', () => {
   it('should display default layout', () => {
-    browser.get('#/nga-layout');
+    browser.get('#/layout');
 
     element(by.css('#default-layout > nga-sidebar')).getCssValue('order').then(order => {
       expect(order).toEqual('0');
@@ -14,7 +14,7 @@ describe('nga-layout', () => {
   });
 
   it('should display layout with left sidebar', () => {
-    browser.get('#/nga-layout');
+    browser.get('#/layout');
 
     element(by.css('#left-sidebar-layout > nga-sidebar')).getCssValue('order').then(order => {
       expect(order).toEqual('0');
@@ -22,7 +22,7 @@ describe('nga-layout', () => {
   });
 
   it('should display layout with right sidebar', () => {
-    browser.get('#/nga-layout');
+    browser.get('#/layout');
 
     element(by.css('#right-sidebar-layout > nga-sidebar')).getCssValue('order').then(order => {
       expect(order).toEqual('2');
@@ -30,7 +30,7 @@ describe('nga-layout', () => {
   });
 
   it('should display layout with left and right sidebars', () => {
-    browser.get('#/nga-layout');
+    browser.get('#/layout');
 
     element(by.css('#two-sidebars-layout > nga-sidebar[left]')).getCssValue('order').then(order => {
       expect(order).toEqual('0');
